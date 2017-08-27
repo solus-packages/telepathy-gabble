@@ -1,0 +1,45 @@
+<PISI>
+    <Source>
+        <Name>telepathy-gabble</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">telepathy-gabble is a connection manager for the XMPP (Jabber) protocol.</Summary>
+        <Description xml:lang="en">telepathy-gabble is a connection manager for the XMPP (Jabber) protocol.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>telepathy-gabble</Name>
+        <Summary xml:lang="en">telepathy-gabble is a connection manager for the XMPP (Jabber) protocol.</Summary>
+        <Description xml:lang="en">telepathy-gabble is a connection manager for the XMPP (Jabber) protocol.
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/telepathy-gabble/telepathy-gabble</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libgabble-plugins-0.18.3.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libgabble-plugins.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libwocky-telepathy-gabble-0.18.3.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libwocky.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/plugins/libconsole.so</Path>
+            <Path fileType="library">/usr/lib64/telepathy/gabble-0/plugins/libgateways.so</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.gabble.service</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/telepathy/managers/gabble.manager</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-27</Date>
+            <Version>0.18.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
