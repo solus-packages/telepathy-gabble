@@ -1,6 +1,6 @@
 name       : telepathy-gabble
 version    : 0.18.3
-release    : 2
+release    : 3
 source     :
     - http://telepathy.freedesktop.org/releases/telepathy-gabble/telepathy-gabble-0.18.3.tar.gz : 8ec714607e9bcb8d5a3f44adf871e7b07d5db8e326e47536e74e09cba59989c2
 license    : LGPL-2.1
