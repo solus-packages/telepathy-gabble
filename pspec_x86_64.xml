@@ -2,8 +2,8 @@
     <Source>
         <Name>telepathy-gabble</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <PartOf>network.im</PartOf>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>network.im</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/telepathy-gabble-xmpp-console</Path>
             <Path fileType="library">/usr/lib64/telepathy-gabble/telepathy-gabble</Path>
             <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libgabble-plugins-0.18.3.so</Path>
             <Path fileType="library">/usr/lib64/telepathy/gabble-0/lib/libgabble-plugins.so</Path>
@@ -28,18 +28,21 @@
             <Path fileType="library">/usr/lib64/telepathy/gabble-0/plugins/libconsole.so</Path>
             <Path fileType="library">/usr/lib64/telepathy/gabble-0/plugins/libgateways.so</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.gabble.service</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc/telepathy-gabble/muc-bytestream.html</Path>
+            <Path fileType="doc">/usr/share/doc/telepathy-gabble/olpc.html</Path>
+            <Path fileType="doc">/usr/share/doc/telepathy-gabble/si-multiple.html</Path>
+            <Path fileType="doc">/usr/share/doc/telepathy-gabble/tubes.html</Path>
+            <Path fileType="man">/usr/share/man/man8/telepathy-gabble.8</Path>
             <Path fileType="data">/usr/share/telepathy/managers/gabble.manager</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-04-21</Date>
+        <Update release="4">
+            <Date>2018-07-30</Date>
             <Version>0.18.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
